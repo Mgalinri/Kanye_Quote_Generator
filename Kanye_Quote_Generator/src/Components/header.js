@@ -4,7 +4,8 @@ import './app.css';
 
  function Header(){
    
-    const[head,setHead]=useState(false);
+    const[head,setHead]=useState("Keep your nose out the sky, keep your heart to god, and keep your face to the raising sun")
+    
       //Fetches the API
      const click = async() =>{fetch('https://api.kanye.rest/')
     .then((response) => response.json())
