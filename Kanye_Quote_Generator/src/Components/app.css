@@ -1,0 +1,51 @@
+
+/*Imports the font from Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+/*Main containers*/
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+.container{
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+  
+    justify-content: center;
+}
+/*Quote container*/
+.quote{
+ 
+   background-color: black;
+ height: 550px;
+   width: 600px;
+     padding: 10px;
+    display: flex;
+    align-items: center;
+     flex-direction: column;
+     justify-content: center;
+     color: green;
+     font-family: 'VT323', monospace;
+  
+ 
+   
+}
+
+
+
+/*The button*/
+.button{
+    background-color: green;
+    border: none;
+
+    height: 40px;
+    width: 150px;
+    color: white;
+    font-size: 30px;
+    font-family: 'VT323', monospace;
+}
